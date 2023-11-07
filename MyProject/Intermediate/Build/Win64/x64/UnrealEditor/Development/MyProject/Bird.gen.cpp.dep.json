@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\bird.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "d:\\unrealprojects\\myproject\\source\\myproject\\public\\pawns\\bird.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\bird.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

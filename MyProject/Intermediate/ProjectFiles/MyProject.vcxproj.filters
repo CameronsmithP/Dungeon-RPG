@@ -30,12 +30,18 @@
     <Filter Include="Source\MyProject">
       <UniqueIdentifier>{E24959B1-EBAF-399D-9D3A-65ADD2D94AF5}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\MyProject\DebugingMacros.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">
       <Filter>Source\MyProject</Filter>
     </None>
     <ClCompile Include="..\..\Source\MyProject\MyProject.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyProject.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <Filter Include="Source\MyProject\Private">
       <UniqueIdentifier>{D2F4842B-BBDC-35B5-85B4-9B71BDE2BA6A}</UniqueIdentifier>
     </Filter>
@@ -44,6 +50,12 @@
     </Filter>
     <ClCompile Include="..\..\Source\MyProject\Private\Items\Item.cpp">
       <Filter>Source\MyProject\Private\Items</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyProject\Private\Pawns">
+      <UniqueIdentifier>{3D564A9D-8F33-3BDD-BAC1-EAC35125B079}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Private\Pawns\Bird.cpp">
+      <Filter>Source\MyProject\Private\Pawns</Filter>
     </ClCompile>
     <Filter Include="Source\MyProject\Public">
       <UniqueIdentifier>{17AF90F8-BCFF-35EC-B42A-50C00E45B19B}</UniqueIdentifier>
@@ -54,13 +66,11 @@
     <ClInclude Include="..\..\Source\MyProject\Public\Items\Item.h">
       <Filter>Source\MyProject\Public\Items</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\MyProject\MyProject.h">
-      <Filter>Source\MyProject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\MyProject\DebugingMacros.h">
-      <Filter>Source\MyProject</Filter>
+    <Filter Include="Source\MyProject\Public\Pawns">
+      <UniqueIdentifier>{FA1AAF12-D46E-3B2D-8ED3-9B63BD0CB80F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyProject\Public\Pawns\Bird.h">
+      <Filter>Source\MyProject\Public\Pawns</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
