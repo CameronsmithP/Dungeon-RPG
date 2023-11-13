@@ -1,11 +1,11 @@
-"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\UnrealEditor\Inc\MyProject\UHT\MyProject.init.gen.cpp"
-/FI"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/FI"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Definitions.MyProject.h"
-/Yu"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/Fp"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.init.gen.cpp.obj"
-/sourceDependencies "D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.init.gen.cpp.dep.json"
-@"D:\UnrealProjects\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.Shared.rsp"
+"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\UnrealEditor\Inc\MyProject\UHT\MyProject.init.gen.cpp"
+/FI"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/FI"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Definitions.MyProject.h"
+/Yu"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/Fp"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.init.gen.cpp.obj"
+/sourceDependencies "D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.init.gen.cpp.dep.json"
+@"D:\UnrealGit\Dungeon-RPG\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

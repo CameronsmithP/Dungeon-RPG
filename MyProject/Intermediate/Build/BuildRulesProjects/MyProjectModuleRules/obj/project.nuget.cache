@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dh/YiXrVWurs6gLWduvI5Sgdq/0kY6R8fLS9LhMl4U7RWwYMq5kcecyvikRBVZ5odGn9dzLsYmbxs5+3Oy/gTw==",
+  "dgSpecHash": "Sx0+cRENEIMldCCMwmFqXc8GqcCYGY9ku2c8BaihYBuldts3/IXFlKo8DJMBqszLE/3aFa7vCpuqFQjFrONAbw==",
   "success": true,
-  "projectFilePath": "D:\\UnrealProjects\\MyProject\\Intermediate\\Build\\BuildRulesProjects\\MyProjectModuleRules\\MyProjectModuleRules.csproj",
+  "projectFilePath": "D:\\UnrealGit\\Dungeon-RPG\\MyProject\\Intermediate\\Build\\BuildRulesProjects\\MyProjectModuleRules\\MyProjectModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tordl\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",
     "C:\\Users\\tordl\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",

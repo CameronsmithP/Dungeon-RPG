@@ -4,9 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "Components/CapsuleComponent.h"
 #include "Bird.generated.h"
+
 //this line must always be last^
+class UCapsuleComponent;
+class USkeletalMesh;
+class UInputMappingContext;
 
 UCLASS()
 class MYPROJECT_API ABird : public APawn
@@ -25,11 +28,17 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+	void MoveForward(float Value);
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputMappingContext* BirdMappingContext;
 	
 
 private:
 	UPROPERTY(VisibleAnywhere)
-	UCapsuleComponent* Capsule;
+	 UCapsuleComponent* Capsule;
+
+	UPROPERTY(VisibleAnywhere)
+	USkeletalMeshComponent* BirdMesh;
 
 };

@@ -1,3 +1,2 @@
-2023/11/07-03:59:20.115 98cc Reusing MANIFEST D:/UnrealGit/Dungeon-RPG/MyProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2023/11/07-03:59:20.120 98cc Recovering log #3
-2023/11/07-03:59:20.121 98cc Reusing old log D:/UnrealGit/Dungeon-RPG/MyProject/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2023/11/13-05:24:07.992 7ac0 Creating DB D:/UnrealGit/Dungeon-RPG/MyProject/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2023/11/13-05:24:08.557 7ac0 Reusing MANIFEST D:/UnrealGit/Dungeon-RPG/MyProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001

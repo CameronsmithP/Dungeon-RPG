@@ -1,14 +1,14 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\unrealprojects\\myproject\\source\\myproject\\private\\items\\item.cpp",
+        "Source": "d:\\unrealgit\\dungeon-rpg\\myproject\\source\\myproject\\private\\items\\item.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "PCH": "d:\\unrealgit\\dungeon-rpg\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
         "Includes": [
-            "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
-            "d:\\unrealprojects\\myproject\\source\\myproject\\public\\items\\item.h",
-            "d:\\unrealprojects\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\item.generated.h",
-            "d:\\unrealprojects\\myproject\\source\\myproject\\debugingmacros.h"
+            "d:\\unrealgit\\dungeon-rpg\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "d:\\unrealgit\\dungeon-rpg\\myproject\\source\\myproject\\public\\items\\item.h",
+            "d:\\unrealgit\\dungeon-rpg\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\item.generated.h",
+            "d:\\unrealgit\\dungeon-rpg\\myproject\\source\\myproject\\debugingmacros.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

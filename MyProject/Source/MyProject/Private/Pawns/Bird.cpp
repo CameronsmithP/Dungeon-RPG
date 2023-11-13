@@ -2,7 +2,9 @@
 
 
 #include "Pawns/Bird.h"
-
+#include "Components/CapsuleComponent.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "EnhancedInputSubsystems.h"
 // Sets default values
 ABird::ABird()
 {
@@ -14,6 +16,12 @@ ABird::ABird()
 	Capsule->SetCapsuleRadius(15.f);
 	SetRootComponent(Capsule);
 	//RootComponent = Capsule;
+
+	BirdMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("BirdMesh"));
+	BirdMesh->SetupAttachment(GetRootComponent());
+
+	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
 	
 }
 
@@ -22,6 +30,17 @@ void ABird::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	//APlayerController* PlayerController = Cast<APlayerController>(GetController());
+	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	{
+		UEnhancedInputLocalPlayerSubsystem* Subsystem 
+	}
+	//declaring the controller inside the if statements means that the varible is already outside of scope once it gets read, and declaring the controller after will not work
+}
+
+void ABird::MoveForward(float Value)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Value: %f"), Value);
 }
 
 // Called every frame
@@ -36,5 +55,6 @@ void ABird::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis(FName("MoveForward"), this, &ABird::MoveForward);
 }
 
