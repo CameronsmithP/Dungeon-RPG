@@ -4,12 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "InputActionValue.h"
 #include "Bird.generated.h"
 
 //this line must always be last^
 class UCapsuleComponent;
 class USkeletalMesh;
 class UInputMappingContext;
+class UInputAction;
+class USpringArmComponent;
+class UCameraComponent;
 
 UCLASS()
 class MYPROJECT_API ABird : public APawn
@@ -33,6 +37,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputMappingContext* BirdMappingContext;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* MoveAction;
+
+	void Move(const FInputActionValue& Value);
 
 private:
 	UPROPERTY(VisibleAnywhere)
@@ -40,5 +48,11 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	USkeletalMeshComponent* BirdMesh;
+
+	UPROPERTY(VisibleAnywhere)
+	USpringArmComponent* CameraBoom;
+
+	UPROPERTY(VisibleAnywhere);
+	UCameraComponent* ViewCamera;
 
 };

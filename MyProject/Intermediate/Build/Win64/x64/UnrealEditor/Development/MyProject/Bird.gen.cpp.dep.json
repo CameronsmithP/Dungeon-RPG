@@ -7,6 +7,8 @@
         "Includes": [
             "d:\\unrealgit\\dungeon-rpg\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
             "d:\\unrealgit\\dungeon-rpg\\myproject\\source\\myproject\\public\\pawns\\bird.h",
+            "d:\\ue_5.3\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "d:\\ue_5.3\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
             "d:\\unrealgit\\dungeon-rpg\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\bird.generated.h"
         ],
         "ImportedModules": [],
