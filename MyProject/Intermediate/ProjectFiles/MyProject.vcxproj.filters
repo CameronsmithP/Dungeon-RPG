@@ -45,6 +45,12 @@
     <Filter Include="Source\MyProject\Private">
       <UniqueIdentifier>{D2F4842B-BBDC-35B5-85B4-9B71BDE2BA6A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MyProject\Private\Characters">
+      <UniqueIdentifier>{E8D7CEAC-7606-3498-8385-CAA5F134BDEA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Private\Characters\Protagonist.cpp">
+      <Filter>Source\MyProject\Private\Characters</Filter>
+    </ClCompile>
     <Filter Include="Source\MyProject\Private\Items">
       <UniqueIdentifier>{F6C40A13-E3D9-3D1A-9EBC-AEA73710039D}</UniqueIdentifier>
     </Filter>
@@ -60,6 +66,12 @@
     <Filter Include="Source\MyProject\Public">
       <UniqueIdentifier>{17AF90F8-BCFF-35EC-B42A-50C00E45B19B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\MyProject\Public\Characters">
+      <UniqueIdentifier>{5F8F63CE-E7F1-39A8-A634-93E1AA747CAF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyProject\Public\Characters\Protagonist.h">
+      <Filter>Source\MyProject\Public\Characters</Filter>
+    </ClInclude>
     <Filter Include="Source\MyProject\Public\Items">
       <UniqueIdentifier>{628C2B6D-46F6-3D4F-A796-9CE38AAEA1BE}</UniqueIdentifier>
     </Filter>
