@@ -9,7 +9,12 @@
 				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Pawns/BP_Bird.uasset",
 				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Pawns/Input/IMC_BirdContext.uasset",
 				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/Maps/Minimal_Default.umap",
-				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Pawns/Input/IA_Move.uasset"
+				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Pawns/Input/IA_Move.uasset",
+				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Characters/BP_DungeonCharacter.uasset",
+				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Characters/Inputs/IMC_Protag.uasset",
+				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Characters/Inputs/IA_Movement.uasset",
+				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/Characters/Inputs/IA_Looking.uasset",
+				"D:/UnrealGit/Dungeon-RPG/MyProject/Content/BluePrints/GameMode/BP_BirdGameMode.uasset"
 			]
 		}
 	]
